@@ -17,6 +17,7 @@ chmod -R a+w /github/workspace
 
 pip install -r requirements.txt
 pip install mkdocs-minify-plugin>=0.2
+pip install mkdocs-rss-plugin
 
 mkdocs build
 
